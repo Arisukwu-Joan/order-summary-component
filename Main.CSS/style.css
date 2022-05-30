@@ -1,0 +1,138 @@
+:root{
+  --Pale-blue: hsl(225, 100%, 94%);
+--Brigh-blue: hsl(245, 75%, 52%);
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+body{
+  font-family:"red hat display", sans-serif;
+  background-color:var(--Pale-blue);
+  /* min-height: 100vh; */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.bg__image{
+  background: url(/images/pattern-background-mobile.svg) no-repeat center/cover;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (min-width:768px){
+    .bg__image{
+      background: url(/images/pattern-background-desktop.svg) no-repeat center/cover;
+      height: 50vh;
+    }
+    .item{
+      width: 500px;
+    }
+}
+
+.item{
+    background-color: #fff;
+    width: 350px;
+    height: 500px;
+    margin-right: 400px;
+    margin-left: 200px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.main-img{
+width: 350px;
+height: 150px;
+border-radius: 10px 10px 0 0;
+}
+h1{
+  display: flex;
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+p{
+  text-align: center;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.shey article img{
+  padding: 3px;
+}
+
+.shey{
+  display: flex;
+  justify-content: space-between;
+  background-color:hsl(225, 100%, 98%);
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  height: 80px;
+}
+.shey article{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+} 
+.shey article div{
+  font-size: 15px;
+}
+.shey article img{
+  padding-right: 10px;
+
+}
+.btn-primary{
+   background-color:hsl(245, 75%, 52%);
+   color:#fff ;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   width: 300px;
+}
+.btn-secondary{
+  background-color: transparent;
+  color: hsl(224, 23%, 55%);
+  border: none;
+  padding: 20px;
+}
+  .btn-change{
+  background-color: transparent;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  border: none;
+}
+.btn{
+  font-size: 14px;
+  font-weight: bold;
+  cursor: grab;
+}
+.btn-primary:hover{
+  opacity: 0.8;
+  transition: o.3s ease-in-out;
+}
+
+
+
+
+
+
+
+    
+
